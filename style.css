@@ -206,7 +206,7 @@ header {
 
 /* END BANNER SECTION */
 .endbanner {
-    height: 25rem;
+    height: 35rem;
     width: 100%;
     background-color: black; /* using to show where image is supposed to be */
     background-image: url('/images/IMG_1A2D07643669-1.jpeg');
