@@ -1,0 +1,257 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+    font-family: "red hat display", sans-serif;
+    height: 100%;
+}
+
+body {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+/* NAV BAR */
+header {
+    
+    position: fixed;
+    height: 6rem;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 0 auto;
+}
+
+.navbar {
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.navlogo {
+    margin: 1rem 1rem 1rem 10rem;
+    max-height: 4rem;
+}
+
+.navbar ul {
+    display: inline-flex;
+    list-style-type: none;
+}
+
+.links a {
+    font-family: "red hat display", sans-serif;
+    text-decoration: none;
+    padding: 1rem 1rem;
+    color: black;
+    margin: 1rem 1rem 1rem 1rem;
+}
+
+.links a:hover {
+    color: grey;
+}
+
+/*BANNER SECTION*/
+.banner {
+    padding-top: 6rem;
+    display: inline-grid;
+    height: auto;
+    width: 100%;
+    background-image: url('images/IMG_1A2D07643669-2.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: end;
+}
+
+.banner img {
+    max-height: max-content;
+    width: 35%;
+}
+
+.container1 {
+    margin: 10rem 10rem;
+    justify-content: center;
+    align-self: center;
+    font-style: italic;
+}
+
+/* MISSION SECTION */
+.slogan h1 {
+    font-family: 'new-spirit', 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 4.5rem;
+    display: grid;
+}
+
+.slogan p {
+    font-size: 1.5rem;
+}
+
+.mission {
+    height: 22rem;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+    display: grid;
+
+}
+
+.mission .container2 {
+    align-items: space-around;
+}
+
+/* PHOTOS SECTION */
+.photos {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    overflow: hidden;
+
+}
+
+.split img {
+    width: auto;
+    max-height: 30rem;
+}
+
+/* a possible solution?
+
+.split #kg {
+    width: auto;
+    max-height: 30rem;
+    background-image: url(/images/9C5E2C9B-BFDA-4C27-9BB5-C34CF5D79E9E.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.split #pattern {
+    width: auto;
+    max-height: 30rem;
+    background-image: url(/resources/2x/Layer\ 7@2x.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.split #coffee {
+    width: auto;
+    max-height: 30rem;
+    background-image: url(/images/IMG_D0314D549C23-1.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+/* TEAM SECTION */
+.team {
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-bottom: 2rem;
+}
+
+.team-title {
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.team-title h2 {
+    font-family: 'new-spirit', 'Times New Roman', Times, serif;
+    font-weight: 300;
+    font-size: 3rem;
+    color: #ffffff;
+}
+
+.team-list {
+    max-width: 81.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.member {
+    background-color: white;
+    padding: 1rem 1rem;
+    justify-content: center;
+    height: em;
+}
+
+.member img {
+    height: 18rem;
+    width: 18rem;
+    margin-bottom: 10px;
+}
+
+.member-text h3 {
+    font-family: 'new-spirit', 'Times New Roman', Times, serif;
+    font-weight: 400;
+}
+.member-text h4 {
+    font-family: "red hat display", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    color: grey;
+}
+
+/* END BANNER SECTION */
+.endbanner {
+    height: 25rem;
+    width: 100%;
+    background-color: black; /* using to show where image is supposed to be */
+    background-image: url('/images/IMG_1A2D07643669-1.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* .endbanner-img {
+    
+} */
+
+/* FOOTER SECTION */
+.footer {
+    height: auto;
+}
+
+.footertext {
+    display: grid;
+    align-content: center;
+}
+
+.info {
+    padding: 2rem 10rem;
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.info h2 {
+    font-family: 'new-spirit', 'Times New Roman', Times, serif;
+    font-weight: 400;
+}
+
+.map img {
+    height: 15rem;
+    width: 100%;
+}
+
+.social {
+    display: flex;
+    gap: 3px;
+}
+
+.social img {
+    max-height: 1.25rem;
+}
+
