@@ -208,8 +208,8 @@ header {
 .endbanner {
     height: 35rem;
     width: 100%;
-    background-color: black; /* using to show where image is supposed to be */
-    background-image: url('/images/IMG_1A2D07643669-1.jpeg');
+    /* background-color: black; using to show where image is supposed to be - FIXED */
+    background-image: url('./images/IMG_1A2D07643669-1.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
